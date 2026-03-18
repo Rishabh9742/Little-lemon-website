@@ -1,0 +1,105 @@
+.menu {
+  padding: 40px;
+  text-align: center;
+}
+
+.menu-item {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+.footer {
+  background: #495e57;
+  color: white;
+  margin-top: 60px;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  text-align: center;
+}
+
+.footer h2 {
+  color: #f4ce14;
+}
+
+.footer p {
+  margin: 5px;
+}
+.menu {
+  padding: 40px;
+  text-align: center;
+}
+
+.menu-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu-card {
+  width: 200px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background: white;
+}
+
+.menu-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+.booking {
+  padding: 40px;
+  text-align: center;
+  background: #f8f8f8;
+}
+
+.booking form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.booking label {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.booking input,
+.booking select {
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.booking button {
+  margin-top: 15px;
+  padding: 10px;
+  background: #f4ce14;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.booking button:hover {
+  background: #e0b800;
+}
